@@ -33,11 +33,11 @@ Before running the application, make sure you have the following prerequisites:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/AmaniAli95/streamlit-GPS-ethnic.git
+   git clone https://github.com/AmaniAli95/streamlit-A-ethnic.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd streamlit-GPS-ethnic
+   cd streamlit-A-ethnic
    ```
 3. Install the required packages:
    ```bash
