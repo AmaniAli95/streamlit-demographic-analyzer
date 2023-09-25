@@ -12,17 +12,16 @@ This Streamlit application analyzes demographic data and provides forecasts for 
 - [License](#license)
 
 ## Overview
-
 This Streamlit application is designed to analyze demographic data and provide insights into registered voters' demographics and voting behavior in parliamentary districts. It includes two main sections: Ethnic and Age groups. Users can select a category and a specific district to analyze. The application offers the following features:
 
-- Selection of Parliament and District to analyze.
-- Visualization of registered voters by ethnicity or age group.
-- Customizable sliders for voter turnout and support forecasts.
-- Real-time forecasts of voter support for a specific party.
-- Data saving and updating to Google Sheets for future reference.
+## Features
+- Interactive data visualization using Plotly Express.
+- Forecast voter statistics based on age groups and ethnicities.
+- Save and update data to Google Sheets for collaboration.
+- Select different Parliament and District regions for analysis.
+- Real-time updates based on user input.
 
 ## Prerequisites
-
 Before running the application, make sure you have the following prerequisites:
 
 - Python 3.x installed on your system.
@@ -61,6 +60,3 @@ The application is structured into three main Python files:
 - `ethnic.py`: Contains code specific to the "Ethnic" section of the application.
 - `age.py`: Contains code specific to the "Age" section of the application.
 The common functionalities, Google Sheets setup, and other utility functions are defined in `main.py`. The specific section code is kept in `ethnic.py` and `age.py` for modularity.
-
-## Contributing
-Contributions are welcome! If you would like to improve this application or add new features, please open an issue or create a pull request.
