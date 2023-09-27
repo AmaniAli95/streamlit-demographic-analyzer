@@ -8,6 +8,7 @@
    - [Usage](#usage)
 - [Features](#features)
 - [Application Structure](#application-structure)
+- [File Structure](#file-structure)
 
 ## Overview
 The Streamlit Demographic Analyzer is a powerful tool for analyzing demographic data and forecasting registered voter statistics across different categories such as ethnicity and age groups within parliamentary districts. This application empowers users to customize parameters and visualize the impact of various factors on voter turnout and party support.
@@ -55,4 +56,26 @@ The application is structured into three main Python files:
 - `main.py`: Orchestrates the Streamlit app, imports the `ethnic` and age sections, and handles common functionalities.
 - `ethnic.py`: Contains code specific to the "Ethnic" section of the application.
 - `age.py`: Contains code specific to the "Age" section of the application.
-The common functionalities, Google Sheets setup, and other utility functions are defined in `main.py`. The specific section code is kept in `ethnic.py` and `age.py` for modularity.
+
+The common functionalities, Google Sheets setup, and other utility functions are defined in `main.py`. The specific section code is kept in `ethnic.py` and `age.py` for modularity
+
+## File Structure
+```plaintext
+streamlit-demographic-analyzer/
+│
+├── main.py
+├── ethnic.py
+├── age.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── parliament_data.csv (store your parliament data in csv)
+│   ├── district_data.csv (store your district data in csv)
+│   └── ...
+│
+├── tests/
+    ├── test_ethnic.py
+    ├── test_age.py
+    └── ...
+```
