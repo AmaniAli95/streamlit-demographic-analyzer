@@ -1,4 +1,4 @@
-# streamlit-demographic-analyzer
+# Streamlit Demographic Analyzer
 
 ## Table of Contents
 - [Overview](#overview)
